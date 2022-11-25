@@ -1,0 +1,560 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: block;
+    font-weight: bold;
+    color: black;
+    margin: 2px;
+    width: 98vw;
+    height: 30vh;
+    background-color: #34393E;
+    border-radius: 10px;
+    border: 4px solid black;
+    margin-left: 0;
+    opacity: 95%;
+    transition: .9s;
+}
+
+header h1 {
+    text-align: center;
+    position: static;
+    padding: 1em;
+    color: white;
+    font-size: 200%;
+    transition: .9s;
+}
+
+header h1:hover {
+    color: black;
+    font-style: italic;
+}
+
+#headerlogo {
+    width: 12%;
+    border-radius: 1em;
+    margin: 0.7em;
+    position: absolute;
+    transition: .9s;
+}
+
+#headerlogo:hover {
+    border-radius: 1em;
+    margin: 0.7em;
+    position: absolute;
+    border-radius: 2em;
+    border: 2px solid black;
+
+}
+
+header:hover {
+    background-color: wheat;
+    background: dashed;
+    text-decoration: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body p {
+    max-width: 1400px;
+    margin: 3em;
+}
+
+
+/*Menuaren hasiera*/
+
+.menu {
+    position: sticky;
+    display: block;
+    top: 0;
+    list-style: none;
+    padding: 1em;
+    background: #34393E;
+    width: 98%;
+    margin-left: 0;
+    border: 4px solid black;
+    border-radius: 1.5em;
+    opacity: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.menu li a {
+    text-decoration: none;
+    color: #FAFAFAFA;
+    padding: 1em;
+    display: block;
+    font: bolder;
+    transition: .9s;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    height: 10vh;
+
+}
+
+.menu li a:hover {
+    background: #23c968;
+    border: 4px;
+    border-radius: 2em;
+    border: 2px solid white;
+    font-size: 1.2em;
+
+}
+
+/*menuaren bukaera*/
+
+#portada {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 95vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url("images/fondo\ para\ pagina\ web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1em;
+    transition: 1s;
+
+}
+
+#portada:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("images/fondo\ para\ pagina\ web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1em;
+}
+
+#portada h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+}
+
+#portadaren-testua p {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+/*Produktuen sekzioa*/
+
+.section-produktuak {
+    background-color: #48494a;
+    height: 60vh;
+    border-radius: 1em;
+    max-width: 1311px;
+    margin: auto;
+    transition: .9s;
+}
+
+.section-produktuak:hover {
+    background-color: #6c6c6c;
+    color: black;
+    height: 75vh;
+}
+
+.section-produktuak h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    transition: .9s;
+}
+
+.section-produktuak p {
+    text-align: center;
+    color: white;
+    font: bolder;
+    margin: 2vw;
+    font-size: 1.3em;
+}
+
+.section-produktuak h1:hover {
+    text-align: center;
+    color: black;
+}
+
+.section-produktuak h2 {
+    text-align: center;
+    color: white;
+}
+
+.plc{
+    width: 17%;
+    margin: 2em;
+    border: solid #23c968 3px;
+    border-radius: 1em;
+    float: left;
+    align-items: center;
+    transition: .9s;
+}
+
+.plc:hover{
+    align-items: center;
+    width: 21%;
+    margin: 2em;
+    border: solid #23c968 3px;
+    border-radius: 2em;
+    float: left;
+    opacity: 80%;
+}
+
+/*Produktuen sekzioaren amaiera*/
+
+/*Sare sozialen sekzioaren hasiera*/
+
+.section-sare-sozialak {
+    background-color: #34393E;
+    height: 50vh;
+    border-radius: 1em;
+    max-width: 1311px;
+    margin: auto;
+    transition: .9s;
+}
+
+.section-sare-sozialak:hover {
+    background-color: #48494a;
+    color: black;
+    height: 70vh;
+}
+
+.section-sare-sozialak h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    transition: .9s;
+}
+
+.section-sare-sozialak p {
+    text-align: center;
+    color: white;
+    font: bolder;
+    margin: 2vw;
+    font-size: 1.3em;
+}
+
+.section-sare-sozialak a{
+    font-size: 3em;
+}
+
+.section-sare-sozialak a img{
+    width: 10%;
+    border-radius: 0.2em;
+    margin: 0.3em;
+    transition: .6s;
+}
+
+.section-sare-sozialak a img:hover{
+    width: 11%;
+    border-radius: 0.4em;
+    margin: 1.1em;
+}
+
+.section-sare-sozialak h1:hover {
+    text-align: center;
+    color: black;
+}
+
+.section-sare-sozialak h2 {
+    text-align: center;
+    color: white;
+}
+
+/*Sare sozialen sekzioaren bukaera*/
+
+/*Login sekzioaren hasiera*/
+
+.section-login {
+    background-color: #34393E;
+    height: 70vh;
+    border-radius: 1em;
+    max-width: 1311px;
+    margin: auto;
+    transition: .9s;
+}
+
+.section-login:hover {
+    background-color: #48494a;
+    color: black;
+    height: 80vh;
+}
+
+.section-login h1 {
+    text-align: center;
+    color: white;
+    font-size: 2wwem;
+    transition: .9s;
+}
+
+.section-login p {
+    text-align: center;
+    color: white;
+    font: bolder;
+    margin: 2vw;
+    font-size: 1.3em;
+}
+
+.section-login h1:hover {
+    text-align: center;
+    color: black;
+}
+
+.section-login h2 {
+    text-align: center;
+    color: white;
+}
+
+/*Login sekzioaren amaiera*/
+
+/*Erregistratu eta Login html-rako HASIERA*/
+
+.section-Erregistratu {
+    background-color: #34393E;
+    height: 125vh;
+    border-radius: 1em;
+    max-width: 1311px;
+    margin: auto;
+    transition: .9s;
+}
+
+.section-Erregistratu:hover {
+    background-color: #48494a;
+    color: black;
+}
+
+.section-Erregistratu h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    transition: .9s;
+}
+
+.section-Erregistratu p {
+    text-align: center;
+    color: white;
+    font: bolder;
+    margin: 2vw;
+    font-size: 1.3em;
+}
+
+.section-Erregistratu h1:hover {
+    padding: 1em;
+    text-align: center;
+    color: black;
+}
+
+.section-Erregistratu h2 {
+    text-align: center;
+    color: white;
+}
+
+/*Erregistratu eta Login html-rako AMAIERA*/
+
+
+/*Botoiaren transizioaren eta estiloaren hasiera*/
+button {
+    width: fit-content;
+    border-radius: 1em;
+    margin: 1em;
+    position: relative;
+    padding: 2em;
+    border: none;
+    outline: none;
+    background: #23c968;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+    margin-left: 46%;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+button:hover {
+    color: white;
+    background: #79d39e;
+}
+
+button span {
+    position: absolute;
+    background: white;
+    transition: .9s;
+}
+
+button span:nth-child(1) {
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: -100%;
+}
+
+button span:nth-child(2) {
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    right: -100%;
+}
+
+button span:nth-child(3) {
+    width: 3px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+button span:nth-child(4) {
+    width: 3px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1) {
+    left: 0;
+}
+
+button:hover span:nth-child(2) {
+    right: 0;
+}
+
+button:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+button:hover span:nth-child(4) {
+    top: 0;
+}
+
+/*Botoiaren transizioaren eta estiloaren amaiera*/
+
+/*Login eta register-en HTML-aren orrialdearen formularioaern estiloa HASIERA*/
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 1em;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px black;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form-estiloak {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #23c968;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: #23c968;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #23c968;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 1em;
+}
+
+.form-register .botons:hover {
+    width: 100%;
+    background: #34393E;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 1em;
+}
+
+/*Login eta register-en HTML-aren orrialdearen formularioaern estiloa AMAIERA*/
+
+/*orri oinaren hasiera*/
+
+footer{
+    position: absolute;
+    bottom: -390%;
+    left: 0;
+    right: 0;
+    background: #48494a;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.footer-content p a{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+/*orri oinaren bukaera*/
